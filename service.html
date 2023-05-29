@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>RIF - Rohilkhand Incubation Foundation</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="RIF" name="keywords">
+    <meta content="Rohilkhand Incubation Foundation" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="me-3 text-light"><a href="https://goo.gl/maps/bQJ4NGAnkuDzsSr87"
+                            style="color:aliceblue;" onMouseOver="this.style.color='skyblue'"
+                            onMouseOut="this.style.color='aliceblue'" target="_blank"><i
+                                class="fa fa-map-marker-alt me-2"></i>RIF, MJPRU, Bareilly</a></small>
+
+                    <small class="me-3 text-light"><a href="tel:+91 9412510763" style="color:aliceblue;"
+                            onMouseOver="this.style.color='skyblue'" onMouseOut="this.style.color='aliceblue'"
+                            target="_blank"><i class="fa fa-phone-alt me-2"></i>+91 9412510763</a></small>
+                    <!-- <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+91 9412510763</small> -->
+                    <small class="me-3 text-light"><a
+                            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=info@rifmjpru.com"
+                            style="color:aliceblue;" onMouseOver="this.style.color='skyblue'"
+                            onMouseOut="this.style.color='aliceblue'" target="_blank"><i
+                                class="fa fa-envelope-open me-2"></i>info@rifmjpru.com</a></small>
+                    <!-- <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@rifmjpru.com</small> -->
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" target="_blank"
+                        href="https://twitter.com/mjp_bareilly"><i class="fab fa-twitter fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" target="_blank"
+                        href="https://www.facebook.com/mjpruofficial/"><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" target="_blank"
+                        href="https://www.linkedin.com/school/mjpru-bareilly/"><i
+                            class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" target="_blank"
+                        href="https://www.instagram.com/mjpru.official"><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" target="_blank"
+                        href="https://www.youtube.com/channel/UCzUtKWfqBhlNIQzc59jdFBQ"><i
+                            class="fab fa-youtube fw-normal"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Carousel Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+            <a href="./" class="navbar-brand p-0">
+                <h1 class="m-0">
+                    <img src="img/favicon.png" class="logoimg" alt="">
+                </h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="./" class="nav-item nav-link">Home</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="./about" class="dropdown-item">About RIF</a>
+                            <a href="./image-gallery" class="dropdown-item">Image Gallery</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">RIF Team</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="./rifteam/boardofdirectors" class="dropdown-item">Board of Directors</a>
+                            <a href="./rifteam/advisiorybord" class="dropdown-item">Advisiory Board Members</a>
+                            <a href="./rifteam/team" class="dropdown-item">Team</a>
+                            <a href="./profiles" class="dropdown-item">Incubatees Profiles</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="./price" class="dropdown-item">Membership Plans</a>
+                            <a href="#" class="dropdown-item">RIF Services</a>
+                        </div>
+                    </div>
+                    <a href="./query" class="nav-item nav-link">Contact Us</a>
+                </div>
+
+            </div>
+        </nav>
+
+        <div class="container-fluid bg-danger bg-header bg-header2" style="margin-bottom: 10px;">
+            <div class="row">
+                <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <div class="nine">
+        <h1>Our Services<span>❖❖❖</span></h1>
+    </div>
+
+
+    <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+
+            <div class="blog_post">
+                <div class="container_copy2">
+                    <u>
+                        <h1 class="h1ab">Benefits to Choose RIF</h1>
+                    </u>
+                    <p class="pab">Incubators help companies acquire new insights and gain a competitive edge.
+                        Experimenting with new concepts, ideas and business models often leads to insights that help
+                        companies solve problems faster, streamline their operations and increase cost-effectiveness.
+                        The Rohilkhand Incubation foundation offers following attention-grabbing services:
+                    </p>
+                    <h3 class="h3ab" style="color: #061429;"><i class="fa fa-check text-danger me-3"></i>Physical
+                        Infrastructure</h3>
+                    <p class="pab">
+                        At RIF, a 5000 square feet physical space with executable facilities are available for the
+                        Startups. The potential startups can get Infrastructural support to have working space along
+                        with Communication and Computing, Technological Display cum Information Hall, Conference and
+                        Meeting Hall, Ideation Room and other necessary incubation facilities.
+                    </p>
+                    <h3 class="h3ab" style="color: #061429;"><i class="fa fa-check text-danger me-3"></i>Quality
+                        Mentorship</h3>
+                    <p class="pab">
+                        The budding ideas of startups will be fostered under guidance of industry and market experts,
+                        researchers, and academicians of premier research and educational institutes and universities.
+                        Expert with the best technical familiarity will share their knowledge and expertise with
+                        incubatees. Wherever young entrepreneurs stumble, expert will have advices for them.
+                    </p>
+                    <h3 class="h3ab" style="color: #061429;"><i class="fa fa-check text-danger me-3"></i>Technical
+                        Consultancy</h3>
+                    <p class="pab">
+                        Consultancy services will be arranged for the entrepreneurs and established units. RIF is
+                        committed to provide consultancy services in all the major areas (viz. Science and Technology,
+                        Business Management and Marketing, Banking and Finance, etc.) for the holistic growth of the
+                        startups and entrepreneurs.
+                    </p>
+                    <h3 class="h3ab" style="color: #061429;"><i class="fa fa-check text-danger me-3"></i>Trainings and
+                        Workshops</h3>
+                    <p class="pab">
+                        The startups and entrepreneurs can enhance their skills, competencies and capabilities with the
+                        trainings and workshops aligned to knowledge sharing. The workshops/training programs will help
+                        in validating product ideas, market segmentation and teach them to model the business proposal.
+                    </p>
+                    <h3 class="h3ab" style="color: #061429;"><i class="fa fa-check text-danger me-3"></i>Financial
+                        Support</h3>
+                    <p class="pab">
+                        Seed Support, Refinement & Commercialization Grant may be provided, subject to the availability
+                        of Funds/Grants/Schemes meant for the purpose. Introduction and Support from Angel Investors,
+                        Venture Capitalists, Banks and other financial institutions may also be facilitated, Subject to
+                        availability.
+                    </p>
+                    <h3 class="h3ab" style="color: #061429;"><i class="fa fa-check text-danger me-3"></i>Competition and
+                        Events</h3>
+                    <p class="pab">
+                        Get yourself immersed in our business plan competitions, conclaves and e-summits and
+                        accelerators to enhance your skills, abilities and competencies. You can also be a part of
+                        Hackathon, Ideathon, innovators camp, awareness drive and many more. Wining is not the end goal,
+                        learning is! With us, learning never stops.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Service Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-1">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-danger text-uppercase">Other Services</h5>
+                <h1 class="mb-0">Custom IT Solutions for Your Successful Business</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center ">
+                        <div class="service-icon ">
+                            <!-- <i class="fa fa-calendar-alt text-white"></i> -->
+                            <img src="https://img.icons8.com/color/48/null/event-accepted.png" />
+                        </div>
+                        <h4 class="mb-3">Events</h4>
+                        <p class="m-0">Events are a way of creating and building bonds and a strong network is essential
+                            for business
+                        </p>
+                        <!-- <a class="btn btn-lg btn-danger rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <!-- <i class="fa fa-chart-pie text-white"></i> -->
+                            <img src="https://img.icons8.com/color/48/null/resources.png" />
+                        </div>
+                        <h4 class="mb-3">Shared Resources</h4>
+                        <p class="m-0">Sharing a peripheral device (disk, printer, etc.) among several users
+                        </p>
+                        <!-- <a class="btn btn-lg btn-danger rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <!-- <i class="fa fa-code text-white"></i> -->
+                            <img src="https://img.icons8.com/color/48/null/company.png" />
+                        </div>
+                        <h4 class="mb-3">Physical Infrastructure</h4>
+                        <p class="m-0">Physical infrastructure refers to the physical availability and quality of public
+                            facilities
+                        </p>
+                        <!-- <a class="btn btn-lg btn-danger rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <!-- <i class="fab fa-android text-white"></i> -->
+                            <img src="https://img.icons8.com/color/48/null/customer-support.png" />
+                        </div>
+                        <h4 class="mb-3">Technical Support</h4>
+                        <p class="m-0">Technical support (abbreviated as tech support) is a call centre type customer
+                            service provided
+                        </p>
+                        <!-- <a class="btn btn-lg btn-danger rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <!-- <i class="fa fa-search text-white"></i> -->
+                            <img src="https://img.icons8.com/fluency/48/null/customer-support.png" />
+                        </div>
+                        <h4 class="mb-3">360° Support for Business</h4>
+                        <p class="m-0">Introducing 360 Business Support. Problem Solving Made Easy. Home: Welcome. Home:
+                            Bookings Widget
+                        </p>
+                        <!-- <a class="btn btn-lg btn-danger rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <!-- <i class="fa fa-shield-alt text-white"></i> -->
+                            <img src="https://img.icons8.com/bubbles/50/null/brand-new.png" />
+                        </div>
+                        <h4 class="mb-3">Branding</h4>
+                        <p class="m-0">Branding is the process of creating a distinct identity for a business
+                        </p>
+                        <!-- <a class="btn btn-lg btn-danger rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <!-- <i class="fa fa-chart-pie text-white"></i> -->
+                            <img src="https://img.icons8.com/color/48/000000/small-business.png" />
+
+                        </div>
+                        <h4 class="mb-3">Business Support Service</h4>
+                        <p class="m-0">The business support services refer to those business activities that act as
+                            auxiliaries to trade
+                        </p>
+                        <!-- <a class="btn btn-lg btn-danger rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <!-- <i class="fa fa-code text-white"></i> -->
+                            <img src="https://img.icons8.com/color/48/000000/programming--v1.png" />
+                        </div>
+                        <h4 class="mb-3">Web Development</h4>
+                        <p class="m-0">Web development is the work involved in developing a website for the Internet
+                        </p>
+                        <!-- <a class="btn btn-lg btn-danger rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <!-- <i class="fab fa-android text-white"></i> -->
+                            <img src="https://img.icons8.com/color/48/null/android-studio--v3.png" />
+                        </div>
+                        <h4 class="mb-3">Apps Development</h4>
+                        <p class="m-0">Mobile application development is the process to making software for smartphones
+                            and digital assistants
+                        </p>
+                        <!-- <a class="btn btn-lg btn-danger rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <!-- <i class="fa fa-search text-white"></i> -->
+                            <img
+                                src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/40/000000/external-mentorship-social-media-agency-flaticons-lineal-color-flat-icons-2.png" />
+                        </div>
+                        <h4 class="mb-3">Mentorship</h4>
+                        <p class="m-0">The purpose of a mentor is to help you grow as a person and become the best
+                            version of yourself</p>
+                        <!-- <a class="btn btn-lg btn-danger rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <!-- <i class="fa fa-search text-white"></i> -->
+                            <img
+                                src="https://img.icons8.com/external-justicon-lineal-color-justicon/30/null/external-networking-virus-transmission-justicon-lineal-color-justicon.png" />
+                        </div>
+                        <h4 class="mb-3">Networking</h4>
+                        <p class="m-0">Networking refers to interconnected computing devices that can exchange data and
+                            share resources with each other
+                        </p>
+                        <!-- <a class="btn btn-lg btn-danger rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                    <div
+                        class="position-relative bg-danger rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
+                        <h3 class="text-white mb-3">Call Us For Any Query</h3>
+                        <p class="text-white mb-3" style="text-align: justify;">Please do not hesitate to contact me if
+                            I can be of any further
+                            assistance. Please let me know if I can provide further information on this matter.</p>
+                        <h2 class="mb-0" style="color: #fff;"><a class="text-white" href="tel:+91 9412510763"
+                                onMouseOver="this.style.color='skyblue'" onMouseOut="this.style.color='#fff'"
+                                target="_blank">+91 9412510763</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-2">
+
+            <div class="blog_post">
+                <div class="container_copy2">
+
+                    <u>
+                        <h1 class="h1ab">Eligibility Criteria for Incubatees</h1>
+                    </u>
+                    <h3 class="pab">Entrepreneurs and Start-ups interested in applying for incubation at Rohilkhand
+                        Incubation Foundation will be considered under following criteria:
+                    </h3>
+
+                    <p class="pab"><i class="fa fa-play text-danger me-3"></i>
+                        Entrepreneurs/Start-ups may be an individual or group of individuals working towards development
+                        of innovative products/ processes/ services and must have a scalable business model with a high
+                        potential of employment generation or wealth creation.
+                    </p>
+                    <p class="pab"><i class="fa fa-play text-danger me-3"></i>
+                        Entrepreneurs/Start-ups may be registered under either form of business entity as follows:
+                    <ul>
+                        <li>
+                            <p class="pab">
+                                Private Limited Company (under The Companies Act, 2013); or
+                            </p>
+                        </li>
+                        <li>
+                            <p class="pab">
+                                Sole proprietorship Company; or
+                            </p>
+                        </li>
+                        <li>
+                            <p class="pab">
+                                One Person Company; or
+                            </p>
+                        </li>
+                        <li>
+                            <p class="pab">
+                                A Registered Partnership Firm (under The Indian Partnership Act, 1932); or
+                            </p>
+                        </li>
+                        <li>
+                            <p class="pab">
+                                A Limited Liability Partnership (under The Limited Liability Partnership Act, 2008); or
+                            </p>
+                        </li>
+                        <li>
+                            <p class="pab">
+                                A “Commercial Establishment” in any other form allowed by Government of India laws or as
+                                notified in the Official Gazette.
+                            </p>
+                        </li>
+                    </ul>
+                    </p>
+                    <p class="pab"><i class="fa fa-play text-danger me-3"></i>
+                        Entrepreneurs/Start-ups with no legal registration may be considered for incubation provided the
+                        application is submitted in the names of all promoters/founders. Also the promoters/founders
+                        must ensure that the Start-up is registered under either form of business entity listed in point
+                        2, within a period of One Year from the start date of incubation at Incubation Centre.
+                    </p>
+                    <p class="pab"><i class="fa fa-play text-danger me-3"></i>
+                        Further to the criteria mentioned in Section 2, the registered Start-up:
+                    <ul>
+                        <li>
+                            <p class="pab">
+                                Must not be older than 7 years from the date of registration/ company incorporation
+                                (Biotechnology related Start-ups must not be older than 10 years from the date of
+                                registration/ company incorporation).
+                            </p>
+                        </li>
+                        <li>
+                            <p class="pab">
+                                Its annual turnover (as defined in the Companies Act, 2013) in any preceding financial
+                                year must not exceed 25 crores.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="pab">
+                                Must not be formed by splitting up, or reconstruction, of a business already in
+                                existence.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="pab">
+                                Must be working towards development of innovative products/ processes/services and must
+                                have a scalable business model with a high potential of employment generation or wealth
+                                creation.
+                            </p>
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container" style="margin-bottom: 5rem;">
+
+            <div class="blog_post">
+                <div class="container_copy2">
+                    <u>
+                        <h1 class="h1ab">Screening Process for Incubatees</h1>
+                    </u>
+
+                    <h3 class="h3ab" style="color: #061429;"><i class="fa fa-check text-danger me-3"></i>Step-1:</h3>
+                    <p class="pab">
+                        Submission of an electronic or in person – Application/Idea by Potential Incubatees, Innovators
+                        and Entrepreneurs.
+                    </p>
+                    <h3 class="h3ab" style="color: #061429;"><i class="fa fa-check text-danger me-3"></i>Step-2:</h3>
+                    <p class="pab">
+                        Constitution and approval of the incubation evaluation committee by the directors (screening
+                        round where proposals are examined with attention to financial and technical due diligence).
+                    </p>
+                    <h3 class="h3ab" style="color: #061429;"><i class="fa fa-check text-danger me-3"></i>Step-3:</h3>
+                    <p class="pab">
+                        Presentation before the committee by the applicant.
+                    </p>
+                    <h3 class="h3ab" style="color: #061429;"><i class="fa fa-check text-danger me-3"></i>Step-4:</h3>
+                    <p class="pab">
+                        The Committee gives its recommendation and signed minutes are forwarded to the Director for
+                        approval.
+                    </p>
+                    <h3 class="h3ab" style="color: #061429;"><i class="fa fa-check text-danger me-3"></i>Step-5:</h3>
+                    <p class="pab">
+                        Incubation Agreement is signed for admission.
+                    </p>
+                    <h3 class="h3ab" style="color: #061429;"><i class="fa fa-check text-danger me-3"></i>Step-6:</h3>
+                    <p class="pab">
+                        Periodic review of the activities of the incubate company every quarter.
+                    </p>
+                    <h3 class="h3ab" style="color: #061429;"><i class="fa fa-check text-danger me-3"></i>Step-7:</h3>
+                    <p class="pab">
+                        In case the incubate company requires any facility of Rohilkhand Incubation Foundation, M.J.P.
+                        Rohilkhand University, Bareilly, then they shall enter into a Usage Agreement.
+                    </p>
+                    <h3 class="h3ab" style="color: #061429;"><i class="fa fa-check text-danger me-3"></i>Step-8:</h3>
+                    <p class="pab">
+                        In case the incubate company requires any seed fund, they shall submit an application giving
+                        details of fund requirement with clear budget heads and enter into a separate Seed Fund
+                        Agreement containing details of repayment, etc.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="fixed-btn">
+        <a href="./contact">Apply Now</a>
+    </div>
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp marginlow" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <div
+                        class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-danger p-4">
+                        <a href="#" class="navbar-brand">
+                            <h1 class="m-0">
+
+                                <img src="./img/favicon.png" class="logoimg" alt="">
+                            </h1>
+                        </a>
+                        <p class="mt-3 mb-4" style="text-align: justify;">RIF is focussed to provide faster growth to
+                            new ventures, incubatees for
+                            successful commercialisation of technology/product through a combination of Accelerator
+                            Program, Alumni Connect, Corporate Market Access.</p>
+
+                        <div class="input-group" style="justify-content: center; display: flex; align-items: center;">
+                            <a href="./contact"> <button class="btn btn-dark">Get Started</button></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Get In Touch</h3>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-geo-alt text-danger me-2"></i>
+                                <a href="https://goo.gl/maps/bQJ4NGAnkuDzsSr87" style="color:aliceblue;"
+                                    onMouseOver="this.style.color='skyblue'" onMouseOut="this.style.color='aliceblue'"
+                                    target="_blank">RIF, MJPRU, Bareilly</a>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-envelope-open text-danger me-2"></i>
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=info@rifmjpru.com"
+                                    style="color:aliceblue;" onMouseOver="this.style.color='skyblue'"
+                                    onMouseOut="this.style.color='aliceblue'" target="_blank">info@rifmjpru.com</a>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-telephone text-danger me-2"></i>
+                                <a href="tel:+91 9412510763" style="color:aliceblue;"
+                                    onMouseOver="this.style.color='skyblue'" onMouseOut="this.style.color='aliceblue'"
+                                    target="_blank">+91 9412510763</a>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-telephone text-danger me-2"></i>
+                                <a href="tel:+91 9412510763" style="color:aliceblue;"
+                                    onMouseOver="this.style.color='skyblue'" onMouseOut="this.style.color='aliceblue'"
+                                    target="_blank">+91 8979794345</a>
+
+                            </div>
+                            <div class="d-flex mt-4">
+                                <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+                                    target="_blank" href="https://twitter.com/mjp_bareilly"><i
+                                        class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+                                    target="_blank" href="https://www.facebook.com/mjpruofficial/"><i
+                                        class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+                                    target="_blank" href="https://www.linkedin.com/school/mjpru-bareilly/"><i
+                                        class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+                                    target="_blank" href="https://www.instagram.com/mjpru.official"><i
+                                        class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" target="_blank"
+                                    href="https://www.youtube.com/channel/UCzUtKWfqBhlNIQzc59jdFBQ"><i
+                                        class="fab fa-youtube fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Quick Links</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="./"><i
+                                        class="bi bi-arrow-right text-danger me-2"></i>Home</a>
+                                <a class="text-light mb-2" href="./about"><i
+                                        class="bi bi-arrow-right text-danger me-2"></i>About Us</a>
+                                <a class="text-light mb-2" href="./service"><i
+                                        class="bi bi-arrow-right text-danger me-2"></i>Our Services</a>
+                                <a class="text-light mb-2" href="./rifteam/team"><i
+                                        class="bi bi-arrow-right text-danger me-2"></i>Meet The Team</a>
+                                <a class="text-light mb-2" href="./image-gallery"><i
+                                        class="bi bi-arrow-right text-danger me-2"></i>Image Gallery</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Popular Links</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="./query"><i
+                                        class="bi bi-arrow-right text-danger me-2"></i>Contact Us</a>
+                                <a class="text-light mb-2" href="./price"><i
+                                        class="bi bi-arrow-right text-danger me-2"></i>Membership Plan</a>
+                                <a class="text-light mb-2" href="./profiles"><i
+                                        class="bi bi-arrow-right text-danger me-2"></i>Incubatees Profiles</a>
+                                <a class="text-light mb-2" href="./contact"><i
+                                        class="bi bi-arrow-right text-danger me-2"></i>Application Form</a>
+                                <a class="text-light mb-2" href="./membershipform"><i
+                                        class="bi bi-arrow-right text-danger me-2"></i>Membership Form</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-white" style="background: #061429;">
+        <div class="container text-center">
+            <div class="row justify-content-end">
+                <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+                    <a style="text-decoration: none; color: #fff;" href="./admin">
+                        <p class="mb-0">RIF &copy; <span id="year"> </span> | All Rights Reserved.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" id="scroll" style="display: none;"><span></span></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
