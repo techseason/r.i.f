@@ -13,8 +13,8 @@ if (strlen($_SESSION['login']) == 0) {
         <meta charset="utf-8">
         <title>RIF - Rohilkhand Incubation Foundation</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="RIF" name="keywords">
-        <meta content="Rohilkhand Incubation Foundation" name="description">
+        <meta content="RIF, Rohilkhand Incubation Foundation" name="keywords">
+    <meta content="RIF is focussed to provide faster growth to new ventures, incubatees for successful commercialisation of technology/product through a combination of Accelerator Program, Alumni Connect, Corporate Market Access." name="description">
 
         <!-- Favicon -->
         <link href="../img/favicon.png" rel="icon">

@@ -25,12 +25,12 @@ a {
   text-decoration: none;
 }
 
-#profile1 header{
-  border-bottom:5px solid #0091ff;
+#profile1 header {
+  border-bottom: 5px solid #0091ff;
   background: url("../img/IncubateesProfile/treateasybg.png") no-repeat 50% 20% / cover;
 }
 
-#profile6 header{
+#profile6 header {
   background: url("../img/IncubateesProfile/paanduv.webp") no-repeat 50% 20% / cover;
 }
 
@@ -233,7 +233,7 @@ a {
   .header__wrapper .cols__container .prodisc .right__col nav button {
     margin-top: 0;
   }
-  
+
 }
 
 
@@ -265,21 +265,21 @@ a {
 
 .card-body {
   flex: 1 1 auto;
-  padding: 1rem 1rem; 
+  padding: 1rem 1rem;
   margin-top: 5rem;
   padding-bottom: 0rem;
   position: relative;
   text-align: start;
-  word-wrap:break-word;
+  word-wrap: break-word;
 }
 
 
-.incpic{
+.incpic {
   padding: 20px 20px 50px 20px;
 
 }
 
-.incbtn{
+.incbtn {
   background: #0091ff;
   color: #fff;
   border: none;
@@ -290,11 +290,11 @@ a {
   font-size: 1.5rem;
 }
 
- .content{
+.content {
   margin-top: 20px;
 }
 
- .content a {
+.content a {
   text-decoration: none;
   color: #6c758f;
   font-size: 30px;
@@ -306,15 +306,15 @@ a {
   color: #0196e3;
 }
 
-         
+
 .btn-grad {
-  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
   margin: 5px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;            
+  color: white;
   box-shadow: 0 0 20px #eee;
   border: none;
   padding: 8px 15px;
@@ -325,7 +325,8 @@ a {
 }
 
 .btn-grad:hover {
-  background-position: right center; /* change the direction of the change here */
+  background-position: right center;
+  /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
 }
